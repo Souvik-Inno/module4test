@@ -1,0 +1,14 @@
+uuid: 5312f129-a54f-4bc1-9fd5-c2de2433c4ff
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - souvikemailer@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
