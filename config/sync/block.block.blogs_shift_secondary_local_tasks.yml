@@ -1,0 +1,22 @@
+uuid: ace0fb0c-8e74-44a9-9245-aa2c74fc48c9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: blogs_shift_secondary_local_tasks
+theme: blogs_shift
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

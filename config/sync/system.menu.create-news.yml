@@ -1,0 +1,8 @@
+uuid: 17074327-922d-46e7-9db1-3d2e2ffcc070
+langcode: en
+status: true
+dependencies: {  }
+id: create-news
+label: 'Create News'
+description: ''
+locked: false

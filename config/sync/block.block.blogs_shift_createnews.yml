@@ -1,0 +1,33 @@
+uuid: dcfd0eb7-0930-4456-b570-4f993b8d44b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.create-news
+  module:
+    - system
+    - user
+  theme:
+    - blogs_shift
+id: blogs_shift_createnews
+theme: blogs_shift
+region: primary_menu
+weight: -8
+provider: null
+plugin: 'system_menu_block:create-news'
+settings:
+  id: 'system_menu_block:create-news'
+  label: 'Create News'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      reporter: reporter

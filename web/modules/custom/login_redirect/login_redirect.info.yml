@@ -1,0 +1,5 @@
+name: Login Redirect
+type: module
+description: Redirects when user logs in
+package: Custom module
+core_version_requirement: ^10

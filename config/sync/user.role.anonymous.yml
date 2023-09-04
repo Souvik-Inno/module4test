@@ -8,8 +8,10 @@ dependencies:
     - comment
     - contact
     - filter
+    - node
     - search
     - system
+    - workflow
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
@@ -19,6 +21,8 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access content overview'
   - 'access site-wide contact form'
+  - 'create news_publisher workflow_transition'
   - 'search content'
   - 'use text format restricted_html'

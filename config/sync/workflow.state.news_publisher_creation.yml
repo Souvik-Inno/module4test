@@ -1,0 +1,12 @@
+uuid: 3b29210b-dd5d-46b2-9138-9a485622fcf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - workflow.workflow.news_publisher
+id: news_publisher_creation
+label: Creation
+module: workflow
+wid: news_publisher
+weight: -50
+sysid: 1

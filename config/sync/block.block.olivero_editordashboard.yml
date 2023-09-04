@@ -1,0 +1,33 @@
+uuid: 02580a70-88f1-4793-a38c-0f39b3ac3457
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.editor-dashboard
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_editordashboard
+theme: olivero
+region: primary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:editor-dashboard'
+settings:
+  id: 'system_menu_block:editor-dashboard'
+  label: 'Editor dashboard'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      editor: editor

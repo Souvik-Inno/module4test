@@ -4,14 +4,17 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.webform_default
   module:
     - comment
     - contact
     - file
     - filter
+    - node
     - search
     - shortcut
     - system
+    - workflow
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
@@ -21,10 +24,13 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access content overview'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create news_publisher workflow_transition'
   - 'delete own files'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format webform_default'

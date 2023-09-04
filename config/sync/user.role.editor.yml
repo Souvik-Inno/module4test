@@ -1,0 +1,37 @@
+uuid: 8fdf3787-c6ac-4347-bce3-b9ca3154ce5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - field_permissions
+    - node
+    - workbench_moderation
+    - workflow
+id: editor
+label: Editor
+weight: 5
+is_admin: null
+permissions:
+  - 'bypass node access'
+  - 'create field_published_date'
+  - 'create news_publisher workflow_transition'
+  - 'edit any news content'
+  - 'edit any news_publisher workflow_transition'
+  - 'edit field_published_date'
+  - 'edit own field_published_date'
+  - 'edit own news_publisher workflow_transition'
+  - 'use archived_published transition'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_archived transition'
+  - 'use published_draft transition'
+  - 'use published_published transition'
+  - 'view any unpublished content'
+  - 'view field_published_date'
+  - 'view latest version'
+  - 'view moderation states'
+  - 'view news revisions'
+  - 'view own field_published_date'

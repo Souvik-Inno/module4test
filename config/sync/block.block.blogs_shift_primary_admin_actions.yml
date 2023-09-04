@@ -1,0 +1,20 @@
+uuid: a97aa346-bed7-4dcb-9bb0-1ef3a8d4d573
+langcode: en
+status: true
+dependencies:
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: blogs_shift_primary_admin_actions
+theme: blogs_shift
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

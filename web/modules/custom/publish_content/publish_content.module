@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for publish_content module.
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_ENTITY_TYPE_update().
+ */
+function publish_content_node_update(EntityInterface $entity) {
+  $roles = \Drupal::currentUser()->getRoles();
+  if ($entity->bundle() == 'news' && in_array('editor', $roles)) {
+    $node = Node::load($entity->id());
+    $currentDateTime = date('Y-m-d');
+    $node->set('field_published_date', $currentDateTime);
+  }
+}

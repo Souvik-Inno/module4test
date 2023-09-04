@@ -1,0 +1,22 @@
+uuid: f7cdc560-4fb3-404d-8846-5d2a17cdafe9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: blogs_shift_powered
+theme: blogs_shift
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

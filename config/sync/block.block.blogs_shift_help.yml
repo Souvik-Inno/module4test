@@ -1,0 +1,22 @@
+uuid: 1e343efd-d81c-474a-a990-d917c3f38eeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: blogs_shift_help
+theme: blogs_shift
+region: content_above
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
