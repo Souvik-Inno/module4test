@@ -4,13 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.news.body
+    - field.field.node.news.field_featured
     - field.field.node.news.field_images
     - field.field.node.news.field_published_date
     - field.field.node.news.field_tags
     - node.type.news
   module:
     - datetime
-    - image
+    - imagefield_slideshow
+    - options
     - text
     - user
 id: node.news.default
@@ -25,14 +27,25 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_featured:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
   field_images:
-    type: image
+    type: imagefield_slideshow_field_formatter
     label: above
     settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
+      imagefield_slideshow_style: large
+      imagefield_slideshow_style_effects: fade
+      imagefield_slideshow_style_pause: 'false'
+      imagefield_slideshow_prev_next: 'true'
+      imagefield_slideshow_transition_speed: 100
+      imagefield_slideshow_timeout: 100
+      imagefield_slideshow_pager: true
+      imagefield_slideshow_link_image_to: ''
     third_party_settings: {  }
     weight: 104
     region: content

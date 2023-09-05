@@ -1,0 +1,5 @@
+name: News API
+type: module
+description: Provides an API to get required news articles.
+package: Custom module
+core_version_requirement: ^10

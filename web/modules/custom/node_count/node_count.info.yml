@@ -1,5 +1,0 @@
-name: Node Count
-description: For Node view Count
-package: Custom module
-type: module
-core_version_requirement: ^10

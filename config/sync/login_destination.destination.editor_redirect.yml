@@ -1,0 +1,16 @@
+uuid: 146db58a-6d63-4f2f-bea3-a0efc826ff2b
+langcode: en
+status: true
+dependencies: {  }
+name: editor_redirect
+label: 'Editor Redirect'
+triggers:
+  login: login
+destination_path: 'internal:/editor-dashboard'
+pages_type: 0
+pages: ''
+language: ''
+roles:
+  editor: editor
+weight: 0
+enabled: true

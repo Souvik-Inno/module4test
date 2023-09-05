@@ -12,13 +12,13 @@ dependencies:
 id: olivero_editordashboard
 theme: olivero
 region: primary_menu
-weight: -7
+weight: -9
 provider: null
 plugin: 'system_menu_block:editor-dashboard'
 settings:
   id: 'system_menu_block:editor-dashboard'
   label: 'Editor dashboard'
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
   depth: 0

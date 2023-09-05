@@ -1,0 +1,7 @@
+form_api.form_api_config_page:
+  path: /admin/config/news-api
+  defaults:
+    _form: \Drupal\news_api\Form\NewsSecretForm
+    _title: news API - Settings
+  requirements:
+    _role: administrator

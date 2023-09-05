@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for remove_featured module.
+ */
+
+/**
+ * Implements hook_cron().
+ */
+function remove_featured_cron() {
+  $seven_days_ago = date('Y-m-d', strtotime('-7 days'));
+  $query = \Drupal::entityTypeManager()->getStorage('node')->getQuery()
+    ->accessCheck(FALSE)
+    ->condition('type', 'news')
+    ->condition('status', 1);
+  $nids = $query->execute();
+  $nodes = \Drupal::entityTypeManager()->getStorage('node')->loadMultiple($nids);
+  foreach ($nodes as $node) {
+    if ($node->get('field_published_date')->value < $seven_days_ago && $node->get('field_featured')->value == "Breaking News") {
+      $node->set('field_featured', "Not Breaking News");
+      $node->save();
+    }
+  }
+}

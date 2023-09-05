@@ -27,22 +27,28 @@ module:
   help: 0
   history: 0
   image: 0
+  imagefield_slideshow: 0
   link: 0
-  login_redirect: 0
+  login_destination: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
+  news_api: 0
   node: 0
-  node_count: 0
   node_title_validation: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
   publish_content: 0
+  remove_featured: 0
+  rest: 0
+  restui: 0
   search: 0
+  serialization: 0
   shortcut: 0
   smtp: 0
+  statistics: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -52,6 +58,8 @@ module:
   unique_field_ajax: 0
   update: 0
   user: 0
+  views_slideshow: 0
+  views_slideshow_cycle: 0
   views_ui: 0
   webform: 0
   webform_access: 0
@@ -66,4 +74,5 @@ theme:
   olivero: 0
   claro: 0
   blogs_shift: 0
+  bootstrap: 0
 profile: standard

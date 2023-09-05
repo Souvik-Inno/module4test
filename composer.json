@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/bootstrap": "^3.29",
         "drupal/config_split": "^2.0@RC",
         "drupal/content_access": "^2.0@RC",
         "drupal/core-composer-scaffold": "^10.1",
@@ -24,10 +25,14 @@
         "drupal/core-recommended": "^10.1",
         "drupal/devel": "^5.1",
         "drupal/field_permissions": "^1.2",
+        "drupal/imagefield_slideshow": "^2.0",
+        "drupal/login_destination": "^2.0@beta",
         "drupal/node_title_validation": "^2.0",
+        "drupal/restui": "^1.21",
         "drupal/smtp": "^1.2",
         "drupal/token": "^1.12",
         "drupal/unique_field_ajax": "^2.1",
+        "drupal/views_slideshow": "^5.0",
         "drupal/webform": "^6.2@beta",
         "drupal/workbench_moderation": "^1.7",
         "drupal/workflow": "^1.7"

@@ -4,12 +4,16 @@ status: true
 dependencies:
   config:
     - filter.format.restricted_html
+    - rest.resource.news_resource
   module:
     - comment
     - contact
+    - field_permissions
     - filter
     - node
+    - rest
     - search
+    - statistics
     - system
     - workflow
 _core:
@@ -24,5 +28,8 @@ permissions:
   - 'access content overview'
   - 'access site-wide contact form'
   - 'create news_publisher workflow_transition'
+  - 'restful get news_resource'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view field_featured'
+  - 'view post access counter'

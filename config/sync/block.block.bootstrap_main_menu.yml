@@ -1,4 +1,4 @@
-uuid: d0d2f533-914e-4e6e-b125-f2fdfec4f778
+uuid: 8eefdf8f-22a0-40bf-9ef9-8d519db69165
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - olivero
+    - bootstrap
 _core:
-  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
-id: olivero_main_menu
-theme: olivero
-region: primary_menu
-weight: -7
+  default_config_hash: ERtUwuUKdqiRLiXjBoV7gcIIZgt2IdqWBzqsqtm63w4
+id: bootstrap_main_menu
+theme: bootstrap
+region: navigation_collapsible
+weight: 10
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -23,5 +23,5 @@ settings:
   provider: system
   level: 1
   depth: 2
-  expand_all_items: true
+  expand_all_items: false
 visibility: {  }

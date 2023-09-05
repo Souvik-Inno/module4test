@@ -1,0 +1,8 @@
+uuid: 139da065-c694-4da3-a14d-5e037d150626
+langcode: en
+status: true
+dependencies: {  }
+id: reporter-dashboard
+label: 'Reporter Dashboard'
+description: ''
+locked: false
