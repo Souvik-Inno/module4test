@@ -1,0 +1,32 @@
+uuid: 66b60cab-6baf-4268-bb9d-517b42eb600d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - unique_field_ajax
+    - workbench_moderation
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  unique_field_ajax:
+    unique: 1
+    use_ajax: 1
+    message: 'Given title already exists.'
+  workbench_moderation:
+    enabled: true
+    allowed_moderation_states:
+      - published
+      - archived
+      - draft
+      - needs_review
+    default_moderation_state: draft
+name: News
+type: news
+description: 'Content type for News.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

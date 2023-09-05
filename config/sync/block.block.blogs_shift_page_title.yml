@@ -1,0 +1,20 @@
+uuid: 886c27e7-6951-4594-86bf-20114c04c41f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: blogs_shift_page_title
+theme: blogs_shift
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

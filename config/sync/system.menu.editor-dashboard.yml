@@ -1,0 +1,8 @@
+uuid: 1a92d315-9ecf-4e39-985a-fd58f3edfdef
+langcode: en
+status: true
+dependencies: {  }
+id: editor-dashboard
+label: 'Editor dashboard'
+description: ''
+locked: false

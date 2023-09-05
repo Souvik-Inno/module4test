@@ -1,0 +1,5 @@
+name: Publish content
+type: module
+description: Changes field when content is published.
+package: Custom module
+core_version_requirement: ^10

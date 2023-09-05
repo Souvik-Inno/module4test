@@ -1,0 +1,25 @@
+uuid: 8e8da584-8a4b-4a1a-9ba6-348cc7f746df
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.contact-us
+  module:
+    - system
+  theme:
+    - blogs_shift
+id: blogs_shift_contactus
+theme: blogs_shift
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:contact-us'
+settings:
+  id: 'system_menu_block:contact-us'
+  label: 'Contact Us'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 03b026e6-1f0c-4430-bf1a-99c701dc3afd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - node
+    - workbench_moderation
+    - workflow
+id: reporter
+label: Reporter
+weight: 4
+is_admin: null
+permissions:
+  - 'create news content'
+  - 'create news_publisher workflow_transition'
+  - 'edit own news content'
+  - 'use draft_draft transition'
+  - 'use draft_needs_review transition'
+  - 'use needs_review_needs_review transition'
+  - 'view news revisions'
+  - 'view own unpublished content'

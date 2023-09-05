@@ -1,0 +1,16 @@
+uuid: 4d0cc391-b541-4c75-9045-1ce04f5fe022
+langcode: en
+status: true
+dependencies: {  }
+name: reporter_redirect
+label: 'Reporter Redirect'
+triggers:
+  login: login
+destination_path: 'internal:/reporter-dashboard'
+pages_type: 0
+pages: ''
+language: ''
+roles:
+  reporter: reporter
+weight: 0
+enabled: true

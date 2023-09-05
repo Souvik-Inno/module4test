@@ -1,0 +1,25 @@
+_core:
+  default_config_hash: 5p2lzpRAbNnhbgkvO2MKkxtc2QOBeMRkWubKyc7HYFE
+node_title_validation_config:
+  comma-article: 0
+  exclude-article: ''
+  min-article: '1'
+  max-article: '255'
+  min-wc-article: '1'
+  max-wc-article: '25'
+  unique-article: 0
+  comma-news: 0
+  exclude-news: ''
+  min-news: '1'
+  max-news: '25'
+  min-wc-news: '1'
+  max-wc-news: '25'
+  unique-news: 0
+  comma-page: 0
+  exclude-page: ''
+  min-page: '1'
+  max-page: '255'
+  min-wc-page: '1'
+  max-wc-page: '25'
+  unique-page: 0
+  unique: 0

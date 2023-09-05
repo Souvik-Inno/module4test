@@ -1,0 +1,22 @@
+uuid: e03f5f10-1bc9-4881-84f7-3a4663abe687
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: blogs_shift_breadcrumbs
+theme: blogs_shift
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

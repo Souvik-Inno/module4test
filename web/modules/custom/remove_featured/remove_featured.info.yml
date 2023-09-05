@@ -1,0 +1,5 @@
+name: Remove Featured
+type: module
+description: Remove featured after some time.
+package: Custom module
+core_version_requirement: ^10

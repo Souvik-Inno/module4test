@@ -1,0 +1,23 @@
+uuid: 988f4113-ede4-470b-a03a-7b9d46437b29
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - blogs_shift
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: blogs_shift_search_form_wide
+theme: blogs_shift
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
